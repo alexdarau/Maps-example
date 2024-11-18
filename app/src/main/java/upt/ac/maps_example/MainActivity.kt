@@ -45,7 +45,7 @@ import upt.ac.maps_example.ui.theme.MapsexampleTheme
 
 class MainActivity : ComponentActivity() {
 
-    private val latLngState = mutableStateOf(LatLng(27.986065, 86.922623))
+    private val latLngState = mutableStateOf(LatLng(45.74745411062225, 21.226260284261446))
     private var locationCallback: LocationCallback? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
